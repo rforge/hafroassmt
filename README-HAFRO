@@ -73,7 +73,7 @@ ADD NEW FUNCTION
 
 7 If all tests are passed, delete 'hafroAssmt' and 'hafroAssmt.Rcheck'
 
-8 Put new files under version control inside the 'local' directory
+8 Add new files to project inside the 'local' directory
 
     svn add R/foo.R
     svn add man/foo.Rd
