@@ -1,0 +1,5 @@
+2010-09-23  Arni Magnusson  <arnima@hafro.is>
+
+	* man/labit.Rd: New help page.
+
+	* R/labit.R: New function.
