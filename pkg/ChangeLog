@@ -1,3 +1,9 @@
+2010-09-24  Arni Magnusson  <arnima@hafro.is>
+
+	* inst/doc/devguide.Rnw: New vignette.
+
+	* man/hafroAssmt-package.Rd: New help page.
+
 2010-09-23  Arni Magnusson  <arnima@hafro.is>
 
 	* R/labit.R: New function.

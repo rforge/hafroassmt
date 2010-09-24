@@ -1,0 +1,103 @@
+\documentclass[a4paper]{article}
+% \VignettePackage{hafroAssmt}
+% \VignetteIndexEntry{Developer guidelines}
+\usepackage{parskip}
+\usepackage{hyperref}
+\begin{document}
+
+\title{Developer guidelines}
+\author{Arni Magnusson}
+\maketitle
+
+\tableofcontents
+
+\section{Prerequisites}
+
+\begin{tabular}{ll}
+  \textbf{Windows} & SVN, Rtools, \LaTeX\\
+  \textbf{Linux}   & None\\
+\end{tabular}
+
+\newpage
+
+\section{Add new function}
+
+\begin{enumerate}
+  \item Check out a working copy\\
+  {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
+  \item Copy `foo.R' to `local/R'
+  \item Copy `foo.Rd' to `local/man'
+  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Make a copy of `local' directory and call it `hafroAssmt'
+  \item Check package\\
+  {\footnotesize\verb|  R CMD check hafroAssmt|}
+  \item If all tests are passed, delete `hafroAssmt' and `hafroAssmt.Rcheck'
+  \item Add new files to project inside the `local' directory\\
+  {\footnotesize\verb|  svn add R/foo.R|}\\
+  {\footnotesize\verb|  svn add man/foo.Rd|}
+  \item Check SVN status inside `local' directory\\
+  {\footnotesize\verb|  svn st|}
+  \item If everything looks correct, commit changes to repository,\\
+  {\footnotesize\verb|  svn ci|}\\
+  adding a log entry (without final newline)
+\end{enumerate}
+
+\newpage
+
+\section{Edit function}
+
+\begin{enumerate}
+  \item Check out a working copy\\
+  {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
+  \item Edit `local/R/foo.R'
+  \item Edit `local/man/foo.Rd'
+  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Make a copy of `local' directory and call it `hafroAssmt'
+  \item Check package\\
+  {\footnotesize\verb|  R CMD check hafroAssmt|}
+  \item If all tests are passed, delete `hafroAssmt' and `hafroAssmt.Rcheck'
+  \item Check SVN status inside `local' directory\\
+  {\footnotesize\verb|  svn st|}
+  \item If everything looks correct, commit changes to repository,\\
+  {\footnotesize\verb|  svn ci|}\\
+  adding a log entry (without final newline)
+\end{enumerate}
+
+\newpage
+
+\section{Delete function}
+
+\begin{enumerate}
+  \item Check out a working copy\\
+  {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
+  \item Delete `foo.R' from `local/R'
+  \item Delete `foo.Rd' from `local/man'
+  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Make a copy of `local' directory and call it `hafroAssmt'
+  \item Check package\\
+  {\footnotesize\verb|  R CMD check hafroAssmt|}
+  \item If all tests are passed, delete `hafroAssmt' and `hafroAssmt.Rcheck'
+  \item Delete files from project inside the `local' directory\\
+  {\footnotesize\verb|  svn del R/foo.R|}\\
+  {\footnotesize\verb|  svn del man/foo.Rd|}
+  \item Check SVN status inside `local' directory\\
+  {\footnotesize\verb|  svn st|}
+  \item If everything looks correct, commit changes to repository,\\
+  {\footnotesize\verb|  svn ci|}\\
+  adding a log entry (without final newline)
+\end{enumerate}
+
+\newpage
+
+\section{References}
+
+\url{http://svnbook.red-bean.com/nightly/en/svn-book.pdf}\\
+SVN commands
+
+\url{http://cran.r-project.org/doc/manuals/R-exts.pdf}\\
+R packages and help pages
+
+\url{http://www.gnu.org/prep/standards/standards.pdf}\\
+`ChangeLog' entries.
+
+\end{document}

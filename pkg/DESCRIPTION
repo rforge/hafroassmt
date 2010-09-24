@@ -1,8 +1,8 @@
 Package: hafroAssmt
-Version: 1.0-0
-Date: 2010-09-23
+Version: 1.0-1
+Date: 2010-09-24
 Title: Hafro Assessment Toolbox
-Author: Arni Magnusson
+Author: Arni Magnusson and Hoskuldur Bjornsson
 Maintainer: Arni Magnusson <arnima@hafro.is>
 Description: Functions used in fisheries stock assessment at Hafro, the Marine
   Research Institute in Iceland.
