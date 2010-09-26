@@ -1,3 +1,9 @@
+2010-09-26  Arni Magnusson  <arnima@hafro.is>
+
+	* man/hafroAssmt-package.Rd: Link to hafroAssmt homepage.
+
+	* inst/doc/devguide.Rnw: Mention hafroAssmt-package.Rd.
+
 2010-09-24  Arni Magnusson  <arnima@hafro.is>
 
 	* inst/doc/devguide.Rnw: New vignette.

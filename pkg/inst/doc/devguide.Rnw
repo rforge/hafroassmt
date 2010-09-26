@@ -28,6 +28,7 @@
   \item Copy `foo.R' to `local/R'
   \item Copy `foo.Rd' to `local/man'
   \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Update `man/hafroAssmt-package.Rd'
   \item Make a copy of `local' directory and call it `hafroAssmt'
   \item Check package\\
   {\footnotesize\verb|  R CMD check hafroAssmt|}
@@ -73,6 +74,7 @@
   \item Delete `foo.R' from `local/R'
   \item Delete `foo.Rd' from `local/man'
   \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Update `man/hafroAssmt-package.Rd'
   \item Make a copy of `local' directory and call it `hafroAssmt'
   \item Check package\\
   {\footnotesize\verb|  R CMD check hafroAssmt|}

@@ -19,7 +19,7 @@
 }
 \author{Arni Magnusson and Hoskuldur Bjornsson.}
 \references{
-  \url{http://www.hafro.is}.
+  \url{http://hafroassmt.r-forge.r-project.org}.
 }
 % Programming
 \keyword{utilities}
