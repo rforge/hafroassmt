@@ -1,3 +1,7 @@
+2010-10-02  Arni Magnusson  <arnima@hafro.is>
+
+	* man/labit.Rd: Link to hafroAssmt help page.
+
 2010-09-26  Arni Magnusson  <arnima@hafro.is>
 
 	* man/hafroAssmt-package.Rd: Link to hafroAssmt homepage.
