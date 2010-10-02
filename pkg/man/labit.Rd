@@ -16,10 +16,7 @@ labit(x, y, bold=FALSE, sep=" ")
 \value{
   \code{expression} that can be passed to plot functions as annotation.
 }
-\note{
-  Designed for plots in the annual stock assessment summary report (e.g.
-  Marine Research Institute 2010).
-}
+\note{Designed for plots in the annual stock assessment summary report.}
 \author{Arni Magnusson and Hoskuldur Bjornsson.}
 \references{
   Marine Research Institute. 2010. \cite{State of marine stocks in
@@ -29,6 +26,8 @@ labit(x, y, bold=FALSE, sep=" ")
 \seealso{
   \code{\link{plotmath}} provides the mechanism to combine roman,
   italic, and boldface strings in one plot label.
+
+  \code{\link{hafroAssmt-package}} gives an overview of the package.
 }
 \examples{
   ## Plain and italic:
