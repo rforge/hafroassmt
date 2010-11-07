@@ -1,8 +1,21 @@
 --------------------------------------------------------------------------------
+hafroAssmt 1.0-4
+07 Nov 2010
+--------------------------------------------------------------------------------
+o Added function 'zlines' and accompanying help page.
+
+o Added directory 'data'.
+
+o Added data set 'catage' and accompanying help page.
+
+
+
+
+--------------------------------------------------------------------------------
 hafroAssmt 1.0-3
 02 Oct 2010
 --------------------------------------------------------------------------------
-o Improved labelit() help page.
+o Improved labit() help page.
 
 
 
@@ -31,6 +44,6 @@ o Added package help page.
 hafroAssmt 1.0-0
 23 Sep 2010
 --------------------------------------------------------------------------------
-o Added function labelit().
+o Added function labit().
 
 o Released on R-Forge.

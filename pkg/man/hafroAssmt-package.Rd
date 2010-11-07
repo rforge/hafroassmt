@@ -17,7 +17,8 @@
   \code{browseVignettes()} shows the vignettes, found in the
   \file{hafroAssmt/doc} directory.
 }
-\author{Arni Magnusson and Hoskuldur Bjornsson.}
+\author{Arni Magnusson and Hoskuldur Bjornsson with contributions from
+  Sigurdur Thor Jonsson.}
 \references{
   \url{http://hafroassmt.r-forge.r-project.org}.
 }
