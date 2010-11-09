@@ -2,11 +2,9 @@
 hafroAssmt 1.0-4
 07 Nov 2010
 --------------------------------------------------------------------------------
-o Added function 'zlines' and accompanying help page.
+o Added function zlines().
 
-o Added directory 'data'.
-
-o Added data set 'catage' and accompanying help page.
+o Added example data frame catage.
 
 
 

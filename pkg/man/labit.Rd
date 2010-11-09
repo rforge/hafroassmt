@@ -30,15 +30,15 @@ labit(x, y, bold=FALSE, sep=" ")
   \code{\link{hafroAssmt-package}} gives an overview of the package.
 }
 \examples{
-  ## Plain and italic:
-  plot(1, xlab=labit("Aldur", "Age"))
-  ## equivalent to
-  plot(1, xlab=expression(paste("Aldur ", italic("Age"))))
+## Plain and italic:
+plot(1, xlab=labit("Aldur", "Age"))
+## equivalent to
+plot(1, xlab=expression(paste("Aldur ", italic("Age"))))
 
-  ## Bold and italic:
-  plot(1, xlab=labit("Aldur", "Age", bold=TRUE))
-  ## equivalent to
-  plot(1, xlab=expression(paste(bold("Aldur "), italic("Age"))))
+## Bold and italic:
+plot(1, xlab=labit("Aldur", "Age", bold=TRUE))
+## equivalent to
+plot(1, xlab=expression(paste(bold("Aldur "), italic("Age"))))
 }
 % Graphics
 \keyword{aplot}

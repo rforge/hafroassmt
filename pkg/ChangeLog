@@ -1,3 +1,30 @@
+2010-11-09  Arni Magnusson  <arnima@hafro.is>
+
+	* DESCRIPTION: Add Sigurdur as author, enable LazyData.
+
+	* man/hafroAssmt-package.Rd: Add Sigurdur, catage and zlines.
+
+	* man/catage.Rd: Add column descriptions, URL of data source, and
+	catch-curve example.
+
+	* R/zlines.R: Return invisible NULL.
+
+	* man/labit.Rd: Unindent example.
+
+	* man/zlines.Rd: Simplify example.
+
+2010-11-07  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
+
+	* R/zlines.R: New function.
+
+	* data: New directory.
+
+	* data/catage.rda: New data set.
+
+	* man/zlines.Rd: New help page.
+
+	* man/catage.Rd: New help page.
+
 2010-10-02  Arni Magnusson  <arnima@hafro.is>
 
 	* man/labit.Rd: Link to hafroAssmt help page.
@@ -19,15 +46,3 @@
 	* R/labit.R: New function.
 
 	* man/labit.Rd: New help page.
-
-2010-11-07  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
-
-	* R/zlines.R: New function.
-
-	* data: New directory.
-
-	* data/catage.rda: New data set.
-
-	* man/zlines.Rd: New help page.
-
-	* man/catage.Rd: New help page.

@@ -10,18 +10,20 @@
 \details{
   \emph{Plot functions:}
   \tabular{ll}{
-    \code{\link{labit}} \tab create label\cr
+    \code{\link{labit}} \tab create label      \cr
+    \code{\link{zlines}}\tab add diagonal lines\cr
+  }
+  \emph{Example datasets:}
+  \tabular{ll}{
+    \code{\link{catage}} \tab saithe catch and weight at age\cr
   }
 }
 \note{
-  \code{browseVignettes()} shows the vignettes, found in the
+  \code{browseVignettes()} shows the vignette, found in the
   \file{hafroAssmt/doc} directory.
 }
-\author{Arni Magnusson and Hoskuldur Bjornsson with contributions from
-  Sigurdur Thor Jonsson.}
-\references{
-  \url{http://hafroassmt.r-forge.r-project.org}.
-}
+\author{Arni Magnusson, Hoskuldur Bjornsson, and Sigurdur Thor Jonsson.}
+\references{\url{http://hafroassmt.r-forge.r-project.org}.}
 % Programming
 \keyword{utilities}
 % Statistics
