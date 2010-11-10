@@ -8,13 +8,13 @@
   \eqn{Z}.
 }
 \usage{
-zlines(slope, by=1, \ldots)
+zlines(slope, by=1, \dots)
 }
 \arguments{
   \item{slope}{slope of diagonal lines sent to argument \code{b} in
     \code{abline}.}
   \item{by}{spacing of diagonal lines in x-units.}
-  \item{\ldots}{passed to \code{abline}.}
+  \item{\dots}{passed to \code{abline}.}
 }
 \value{Invisible \code{NULL}.}
 \note{

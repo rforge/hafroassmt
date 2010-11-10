@@ -1,3 +1,7 @@
+2010-11-10  Arni Magnusson  <arnima@hafro.is>
+
+	* man/zlines.Rd: \ldots to \dots
+
 2010-11-09  Arni Magnusson  <arnima@hafro.is>
 
 	* DESCRIPTION: Add Sigurdur as author, enable LazyData.
