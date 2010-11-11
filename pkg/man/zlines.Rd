@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{zlines}
 \alias{zlines}
 \title{Add Diagonal Lines to Existing Plot}
@@ -20,7 +21,7 @@ zlines(slope, by=1, \dots)
 \note{
   Simplifies the code previously used in scripts for the same effect.
 }
-\author{Sigurdur Thor Jonsson.}
+\author{\enc{Sigurður}{Sigurdur} \enc{Þór}{Thor} \enc{Jónsson}{Jonsson}}
 \seealso{
   \code{\link{abline}} is called iteratively to draw the lines.
 }
@@ -32,7 +33,7 @@ zlines(1, by=2, col="blue")
 zlines(-1, col="red")
 
 ## Catch curve
-slope <- 0.6
+slope <- -0.6
 yclasses <- unique(catage$ycl)
 mycol <- rainbow(length(yclasses))
 tmp <- tapply(catage$ObsCno, list(catage$year,catage$age), sum)

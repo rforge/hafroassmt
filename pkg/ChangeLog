@@ -1,3 +1,10 @@
+2010-11-11  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
+
+	* man/zlines.Rd: Correct value for argument slope. Added \encoding
+	  and \enc on Icelandic.
+
+	* man/catage.Rd: Correct value for argument slope.
+
 2010-11-10  Arni Magnusson  <arnima@hafro.is>
 
 	* man/zlines.Rd: \ldots to \dots

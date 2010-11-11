@@ -26,7 +26,7 @@
 }
 \examples{
 ## Catch curve
-slope <- 0.6
+slope <- -0.6
 yclasses <- unique(catage$ycl)
 mycol <- rainbow(length(yclasses))
 tmp <- tapply(catage$ObsCno, list(catage$year,catage$age), sum)
