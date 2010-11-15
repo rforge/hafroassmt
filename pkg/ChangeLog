@@ -1,6 +1,6 @@
 2010-11-11  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
 
-	* man/zlines.Rd: Correct value for argument slope. Added \encoding and
+	* man/zlines.Rd: Correct value for argument slope. Add \encoding and
 	\enc on Icelandic.
 
 	* man/catage.Rd: Correct value for argument slope.
@@ -30,7 +30,7 @@
 
 	* data: New directory.
 
-	* data/catage.rda: New data set.
+	* data/catage.rda: New dataset.
 
 	* man/zlines.Rd: New help page.
 
