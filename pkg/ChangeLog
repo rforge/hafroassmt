@@ -11,8 +11,6 @@
 
 2010-11-09  Arni Magnusson  <arnima@hafro.is>
 
-	* DESCRIPTION: Add Sigurdur as author, enable LazyData.
-
 	* man/hafroAssmt-package.Rd: Add Sigurdur, catage and zlines.
 
 	* man/catage.Rd: Add column descriptions, URL of data source, and
