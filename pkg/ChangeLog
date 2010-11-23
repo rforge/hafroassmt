@@ -1,3 +1,9 @@
+2010-11-23  Arni Magnusson  <arnima@hafro.is>
+
+	* man/zlines.Rd: Return intercepts instead of NULL.
+
+	* R/zlines.R: Return intercepts instead of NULL.
+
 2010-11-11  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
 
 	* man/zlines.Rd: Correct value for argument slope. Add \encoding and
