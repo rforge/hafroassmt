@@ -17,11 +17,10 @@ zlines(slope, by=1, \dots)
   \item{by}{spacing of diagonal lines in x-units.}
   \item{\dots}{passed to \code{abline}.}
 }
-\value{Invisible \code{NULL}.}
-\note{
-  Simplifies the code previously used in scripts for the same effect.
+\value{Invisible vector of intercepts.}
+\author{
+  \enc{Sigurður}{Sigurdur} \enc{Þór}{Thor} \enc{Jónsson}{Jonsson}.
 }
-\author{\enc{Sigurður}{Sigurdur} \enc{Þór}{Thor} \enc{Jónsson}{Jonsson}}
 \seealso{
   \code{\link{abline}} is called iteratively to draw the lines.
 }
