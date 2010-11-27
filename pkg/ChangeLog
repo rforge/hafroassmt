@@ -1,3 +1,7 @@
+2010-11-27  Arni Magnusson  <arnima@hafro.is>
+
+	* R/zlines.R: Fix sapply bug.
+
 2010-11-23  Arni Magnusson  <arnima@hafro.is>
 
 	* man/zlines.Rd: Return intercepts instead of NULL.
