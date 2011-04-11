@@ -3,15 +3,16 @@
 \title{Create Label with Italic}
 \description{
   Paste two strings and create a plot label, where the second string is
-  \emph{italic}.}
+  \emph{italic}.
+}
 \usage{
 labit(x, y, bold=FALSE, sep=" ")
 }
 \arguments{
-  \item{x}{a string to render in roman.}
-  \item{y}{a string to render in italic.}
+  \item{x}{string to render in roman.}
+  \item{y}{string to render in italic.}
   \item{bold}{whether the first string should be in boldface.}
-  \item{sep}{a string to separate the text strings.}
+  \item{sep}{string to separate the text strings.}
 }
 \value{
   \code{expression} that can be passed to plot functions as annotation.

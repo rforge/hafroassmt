@@ -27,7 +27,7 @@
   {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
   \item Copy `foo.R' to `local/R'
   \item Copy `foo.Rd' to `local/man'
-  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Update `DESCRIPTION' and `NEWS'
   \item Update `man/hafroAssmt-package.Rd'
   \item Make a copy of `local' directory and call it `hafroAssmt'
   \item Check package\\
@@ -52,7 +52,7 @@
   {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
   \item Edit `local/R/foo.R'
   \item Edit `local/man/foo.Rd'
-  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Update `DESCRIPTION' and `NEWS'
   \item Make a copy of `local' directory and call it `hafroAssmt'
   \item Check package\\
   {\footnotesize\verb|  R CMD check hafroAssmt|}
@@ -73,7 +73,7 @@
   {\footnotesize\verb|  svn co svn+ssh://scm.r-forge.r-project.org/svnroot/hafroassmt/pkg local|}
   \item Delete `foo.R' from `local/R'
   \item Delete `foo.Rd' from `local/man'
-  \item Update `ChangeLog', `DESCRIPTION', and `NEWS'
+  \item Update `DESCRIPTION' and `NEWS'
   \item Update `man/hafroAssmt-package.Rd'
   \item Make a copy of `local' directory and call it `hafroAssmt'
   \item Check package\\
@@ -98,8 +98,5 @@ SVN commands
 
 \url{http://cran.r-project.org/doc/manuals/R-exts.pdf}\\
 R packages and help pages
-
-\url{http://www.gnu.org/prep/standards/standards.pdf}\\
-`ChangeLog' entries.
 
 \end{document}
