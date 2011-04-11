@@ -14,8 +14,10 @@ veidarfaeri(n=NULL, names=FALSE)
   \item{names}{whether to include gear code in the output.}
 }
 \value{
-  String vector of gear descriptions, or data frame with all gears if
-  \samp{n=NULL}.
+  String vector of gear descriptions, or a data frame if \samp{n=NULL},
+  with named rows and the following columns:
+  \item{id}{gear code \emph{(optional)}.}
+  \item{lysing}{gear description.}
 }
 \note{
   The lookup table contains 100 gears numbered from 0 to 174,
