@@ -1,14 +1,16 @@
 \name{veidarfaeri}
 \alias{veidarfaeri}
-\title{Look Up Gear Codes}
+\title{Look Up Fishing Gear}
 \description{
-  Look up gear codes, as defined in \samp{orri.veidarfaeri} in Oracle.
+  Look up fishing gear codes, as defined in \samp{orri.veidarfaeri} in
+  Oracle.
 }
 \usage{
 veidarfaeri(n=NULL, names=FALSE)
 }
 \arguments{
-  \item{n}{vector of integer gear codes, or \code{NULL} (default).}
+  \item{n}{vector of integer gear codes, or \code{NULL} to show all
+    gears.}
   \item{names}{whether to include gear code in the output.}
 }
 \value{
@@ -28,7 +30,9 @@ veidarfaeri(n=NULL, names=FALSE)
 }
 \examples{
 veidarfaeri()
+
 veidarfaeri(6)
+
 veidarfaeri(c(2,6), TRUE)
 }
 % Basics
