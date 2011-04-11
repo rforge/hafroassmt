@@ -1,19 +1,4 @@
 veidarfaeri <- function(n=NULL, names=FALSE)
-########################################################################################################################
-###                                                                                                                    #
-### Function: veidarfaeri                                                                                              #
-###                                                                                                                    #
-### Purpose:  Look up gear codes                                                                                       #
-###                                                                                                                    #
-### Args:     n is a vector of integer gear codes, or NULL (default)                                                   #
-###           names is whether to include gear code in the output                                                      #
-###                                                                                                                    #
-### Notes:    Current gear table contains 100 gears numbered from 0 to 174, synchronized to orri.veidarfaeri on        #
-###           11 Apr 2011                                                                                              #
-###                                                                                                                    #
-### Returns:  String vector of gear descriptions, or data frame with all gears if n is NULL                            #
-###                                                                                                                    #
-########################################################################################################################
 {
   ## 1  Suppress factor conversion
   osaf <- options(stringsAsFactors=FALSE)

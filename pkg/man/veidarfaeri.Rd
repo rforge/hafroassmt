@@ -29,7 +29,7 @@ veidarfaeri(n=NULL, names=FALSE)
 \examples{
 veidarfaeri()
 veidarfaeri(6)
-veidarfaeri(c(2,6), T)
+veidarfaeri(c(2,6), TRUE)
 }
 % Basics
 \keyword{list}

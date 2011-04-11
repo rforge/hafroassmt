@@ -7,5 +7,6 @@ Maintainer: Arni Magnusson <arnima@hafro.is>
 LazyData: yes
 Description: Functions used in fisheries stock assessment at Hafro, the Marine
   Research Institute in Iceland.
+Encoding: latin1
 License: GPL (>= 2)
 URL: http://hafroassmt.r-forge.r-project.org
