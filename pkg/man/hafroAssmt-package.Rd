@@ -8,6 +8,10 @@
   Research Institute in Iceland.
 }
 \details{
+  \emph{Commercial catches:}
+  \tabular{ll}{
+    \code{\link{veidarfaeri}}\tab look up fishing gear\cr
+  }
   \emph{Plot functions:}
   \tabular{ll}{
     \code{\link{labit}} \tab create label      \cr
@@ -23,7 +27,11 @@
   \file{hafroAssmt/doc} directory.
 }
 \author{Arni Magnusson, Hoskuldur Bjornsson, and Sigurdur Thor Jonsson.}
-\references{\url{http://hafroassmt.r-forge.r-project.org}.}
+\references{
+  \url{http://hafroassmt.r-forge.r-project.org}.
+
+  \url{http://www.hafro.is}.
+}
 % Programming
 \keyword{utilities}
 % Statistics

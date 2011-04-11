@@ -15,7 +15,7 @@ veidarfaeri(n=NULL, names=FALSE)
 }
 \value{
   String vector of gear descriptions, or data frame with all gears if
-  \samp{n} is \samp{NULL}.
+  \samp{n=NULL}.
 }
 \note{
   The lookup table contains 100 gears numbered from 0 to 174,
