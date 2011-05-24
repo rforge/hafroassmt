@@ -34,7 +34,7 @@ surveyIndex(tegund, lengd=NULL, sur="smb", data=aggrVisit)
 }
 \examples{
 aggrDemo <- data.frame(fj=0, cv.fj=NA,
-                       bio.staerri=round(100*exp(rnorm(36,sd=0.3)),1),
+                       bio.staerri=round(1e5*exp(rnorm(36,sd=0.3)),1),
                        cv.bio.staerri=round(runif(36,0.05,0.5),3),
                        fj.minni=0, cv.fj.minni=NA, fj.haenga=0,
                        cv.fj.haenga=NA, fj.hrygna=0, cv.fj.hrygna=NA,
@@ -42,6 +42,7 @@ aggrDemo <- data.frame(fj=0, cv.fj=NA,
                        lengd=rep(7:9,each=3), ar=rep(2001:2004,each=9),
                        bio=0, tegund="daemi", sur="smb")
 surveyIndex("daemi", data=aggrDemo)
+surveyIndex("daemi", data=aggrDemo, div=1e3)
 
 ## Typical usage requires aggrVisit:
 ##
