@@ -6,16 +6,16 @@
   Oracle.
 }
 \usage{
-veidarfaeri(n=NULL, names=FALSE)
+veidarfaeri(x=NULL, names=FALSE)
 }
 \arguments{
-  \item{n}{vector of integer gear codes, or \code{NULL} to show all
-    gears.}
-  \item{names}{whether to include gear code in the output.}
+  \item{x}{vector of integers (gear codes), strings (gear names), or
+    \code{NULL} to show all gears.}
+  \item{names}{whether to assign descriptive names to vector elements.}
 }
 \value{
-  String vector of gear descriptions, or a data frame if \samp{n=NULL},
-  with named rows and the following columns:
+  Vector of integers (gear codes), strings (gear names), or a data frame
+  if \samp{n=NULL}, with named rows and the following columns:
   \item{id}{gear code \emph{(optional)}.}
   \item{lysing}{gear description.}
 }
@@ -36,6 +36,8 @@ veidarfaeri()
 veidarfaeri(6)
 
 veidarfaeri(c(2,6), TRUE)
+
+veidarfaeri("Flotvarpa")
 }
 % Basics
 \keyword{list}

@@ -1,4 +1,4 @@
-veidarfaeri <- function(n=NULL, names=FALSE)
+veidarfaeri <- function(x=NULL, names=FALSE)
 {
   ## 1  Suppress factor conversion
   osaf <- options(stringsAsFactors=FALSE)
@@ -109,15 +109,21 @@ veidarfaeri <- function(n=NULL, names=FALSE)
   key <- data.frame(id=as.integer(key[,1]), lysing=key[,2], row.names=as.integer(key[,1]))
 
   ## 3  Look up
-  if(is.null(n))
+  if(is.null(x))
   {
     output <- if(names) key else key[-1]
   }
+  else if(is.numeric(x))
+  {
+    output <- key$lysing[match(x,key$id)]
+    if(names)
+      names(output) <- x
+  }
   else
   {
-    output <- key$lysing[match(n,key$id)]
+    output <- key$id[match(x,key$lysing)]
     if(names)
-      names(output) <- n
+      names(output) <- x
   }
 
   return(output)
