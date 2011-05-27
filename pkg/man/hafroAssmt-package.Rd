@@ -8,9 +8,13 @@
   Research Institute in Iceland.
 }
 \details{
-  \emph{Commercial catches:}
+  \emph{Look up codes:}
   \tabular{ll}{
     \code{\link{veidarfaeri}}\tab look up fishing gear\cr
+  }
+  \emph{Survey data:}
+  \tabular{ll}{
+    \code{\link{surveyIndex}}\tab get survey biomass index\cr
   }
   \emph{Plot functions:}
   \tabular{ll}{
