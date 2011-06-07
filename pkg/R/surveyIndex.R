@@ -1,4 +1,4 @@
-function(tegund, lengd=NULL, sur="smb", div=1, data=aggrVisit)
+surveyIndex <- function(tegund, lengd=NULL, sur="smb", div=1, data=aggrVisit)
 {
   ## 1  Filter species and survey, select total area
   output <- data[data$tegund==tegund & data$sur==sur & data$svaedi=="Heild",]

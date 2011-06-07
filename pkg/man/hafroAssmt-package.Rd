@@ -18,8 +18,9 @@
   }
   \emph{Plot functions:}
   \tabular{ll}{
-    \code{\link{labit}} \tab create label      \cr
-    \code{\link{zlines}}\tab add diagonal lines\cr
+    \code{\link{endspace}}\tab barplot margins   \cr
+    \code{\link{labit}}   \tab create label      \cr
+    \code{\link{zlines}}  \tab add diagonal lines\cr
   }
   \emph{Example datasets:}
   \tabular{ll}{
@@ -30,7 +31,7 @@
   \code{browseVignettes()} shows the vignette, found in the
   \file{hafroAssmt/doc} directory.
 }
-\author{Arni Magnusson, Hoskuldur Bjornsson, and Sigurdur Thor Jonsson.}
+\author{Arni Magnusson, Hoskuldur Bjornsson, Sigurdur Thor Jonsson, and Birkir Bardarson.}
 \references{
   \url{http://hafroassmt.r-forge.r-project.org}.
 

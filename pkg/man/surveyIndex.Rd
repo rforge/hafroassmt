@@ -6,13 +6,14 @@
   for a given species, size group, and survey.
 }
 \usage{
-surveyIndex(tegund, lengd=NULL, sur="smb", data=aggrVisit)
+surveyIndex(tegund, lengd=NULL, sur="smb", div=1, data=aggrVisit)
 }
 \arguments{
   \item{tegund}{species name, like \code{"ufsi"}.}
   \item{lengd}{minimum length group to include in the biomass index, or
     \code{NULL} to include all lengths.}
   \item{sur}{survey name, either \code{"smb"} or \code{"smh"}.}
+  \item{div}{denominator to shorten biomass index.}
   \item{data}{main dataframe, like \code{aggrVisit}.}
 }
 \value{
