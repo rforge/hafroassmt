@@ -31,7 +31,10 @@
   \code{browseVignettes()} shows the vignette, found in the
   \file{hafroAssmt/doc} directory.
 }
-\author{Arni Magnusson, Hoskuldur Bjornsson, Sigurdur Thor Jonsson, and Birkir Bardarson.}
+\author{
+  Arni Magnusson, Hoskuldur Bjornsson, Sigurdur Thor Jonsson, and Birkir
+  Bardarson.
+}
 \references{
   \url{http://hafroassmt.r-forge.r-project.org}.
 

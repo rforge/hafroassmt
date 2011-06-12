@@ -1,19 +1,26 @@
 \name{endspace}
 \alias{endspace}
-\title{Make space at ends of bars in barplot()}
-\description{Make space at ends of bars in barplot()}
+\title{Find Appropriate Barplot Margins}
+\description{
+  Calculate bounds that can be used as \code{xlim} in a \code{barplot}.
+}
 \usage{
-endspace(x, space = 0.2)
+endspace(x, space=0.2)
 }
 \arguments{
-  \item{x}{matrix returned by barplot()}
-  \item{space}{space at ends of barplot as fraction of barwidth}
+  \item{x}{matrix returned by \code{barplot}.}
+  \item{space}{space at ends of barplot, as a fraction of bar width.}
 }
-\value{vector of two values, to be used as xlim in barplot()}
-\author{Birkir Bardarson}
-\seealso{\code{\link{barplot}}}
+\value{Vector of two values.}
+\author{Birkir Bardarson.}
+\seealso{
+  \code{\link{barplot}}.
+
+  \code{\link{hafroAssmt-package}} gives an overview of the package.
+}
 \examples{
-out <- endspace(barplot(stack.loss))
+out <- endspace(barplot(stack.loss,plot=FALSE))
+
 barplot(stack.loss, xaxs="i", xlim=out, ylim=c(0,45))
 box()
 }
