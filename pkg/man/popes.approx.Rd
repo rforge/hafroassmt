@@ -47,7 +47,7 @@ Sigurdur Thor Jonsson
 }
 
 \seealso{
-\code{\link{\n2f}}, \code{\link{catage}}
+\code{\link{n2f}}, \code{\link{catage}}
 }
 
 \examples{
