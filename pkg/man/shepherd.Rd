@@ -16,8 +16,8 @@ shepherd(x, plot=FALSE)
 \value{
   List containing
   \item{model}{\code{lm} model.}
-  \item{fit}{\code{data.frame} containing \code{Year, Age, Series,
-      Freq}.}
+  \item{fit}{\code{data.frame} containing \code{Year}, \code{Age},
+    \code{Series}, and \code{Freq}.}
   \item{res}{\code{matrix} of residuals.}
   \item{age.sigma}{standard deviation of log residuals within each age.}
   \item{year.sigma}{standard deviation of log residuals within each
@@ -31,7 +31,7 @@ shepherd(x, plot=FALSE)
   The scale-free sigmas can be compared between ages, years, datasets,
   and species.
 
-  The resulting sigmas are maximum likelihood estimates, with the usual
+  The sigmas reported are maximum likelihood estimates, with the usual
   negative bias. They combine observation noise, process variability,
   and model misspecification.
 }

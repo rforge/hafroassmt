@@ -31,7 +31,7 @@ pope(catage, surv, M=0.2)
 }
 \author{Sigurdur Thor Jonsson.}
 \seealso{
-  \code{\link{n2f}} evaluates F from numbers at age.
+  \code{\link{n2f}} evaluates \eqn{F} from numbers at age.
 
   \code{\link{hafroAssmt-package}} gives an overview of the package.
 }
