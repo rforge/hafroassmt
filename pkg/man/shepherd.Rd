@@ -25,6 +25,11 @@ shepherd(x, plot=FALSE)
   \item{sigma}{standard deviation of all log residuals.}
 }
 \note{
+  The log-linear model (Shepherd and Nicholson 1991, Eq. 5),
+  \code{lm(log(Catch)~factor(Year)+factor(Age)+factor(Cohort))}, is
+  exact only if the fishing mortality is separable and the overall
+  fishing mortality is constant over the period considered.
+
   A common purpose of fitting the Shepherd-Nicholson model is to
   evaluate a simple diagnostic of commercial and survey catch-at-age,
   describing how well the data conform to a set of basic assumptions.
@@ -32,7 +37,7 @@ shepherd(x, plot=FALSE)
   and species.
 
   The sigmas reported are maximum likelihood estimates, with the usual
-  negative bias. They combine observation noise, process variability,
+  negative bias. They combine measurement error, process variability,
   and model misspecification.
 }
 \author{Sigurdur Thor Jonsson and Arni Magnusson.}
