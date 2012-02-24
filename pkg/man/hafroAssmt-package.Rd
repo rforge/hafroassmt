@@ -16,6 +16,12 @@
   \tabular{ll}{
     \code{\link{surveyIndex}}\tab get survey biomass index\cr
   }
+  \emph{Models:}
+  \tabular{ll}{
+    \code{\link{n2f}}     \tab \eqn{F} from numbers at age\cr
+    \code{\link{pope}}    \tab Pope's cohort analysis     \cr
+    \code{\link{shepherd}}\tab Shepherd-Nicholson sigma   \cr
+  }
   \emph{Plot functions:}
   \tabular{ll}{
     \code{\link{endspace}}\tab barplot margins   \cr
