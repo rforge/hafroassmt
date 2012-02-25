@@ -24,9 +24,10 @@
   }
   \emph{Plot functions:}
   \tabular{ll}{
-    \code{\link{endspace}}\tab barplot margins   \cr
-    \code{\link{labit}}   \tab create label      \cr
-    \code{\link{zlines}}  \tab add diagonal lines\cr
+    \code{\link{endspace}} \tab barplot margins   \cr
+    \code{\link{labit}}    \tab create label      \cr
+    \code{\link{residplot}}\tab plot CA residuals \cr
+    \code{\link{zlines}}   \tab add diagonal lines\cr
   }
   \emph{Example datasets:}
   \tabular{ll}{
@@ -38,7 +39,7 @@
   \file{hafroAssmt/doc} directory.
 }
 \author{
-  Arni Magnusson, Hoskuldur Bjornsson, Sigurdur Thor Jonsson, and Birkir
+  Arni Magnusson, Sigurdur Thor Jonsson, Hoskuldur Bjornsson, and Birkir
   Bardarson.
 }
 \references{
