@@ -1,5 +1,5 @@
-hafroAssmt 1.7-0 (2012-02-24)
-o New function shep.nic(), renamed popes.approx() to pope().
+hafroAssmt 1.7-1 (2012-05-15)
+o New function shepherd(), renamed popes.approx() to pope().
 
 hafroAssmt 1.6-0 (2011-10-26)
 o New functions popes.approx() and n2f().
