@@ -1,0 +1,41 @@
+hafroAssmt 1.7-1 (2012-05-15)
+o New function shepherd(), renamed popes.approx() to pope().
+
+hafroAssmt 1.6-0 (2011-10-26)
+o New functions popes.approx() and n2f().
+
+hafroAssmt 1.5-0 (2011-06-08)
+o New function endspace().
+
+hafroAssmt 1.4-2 (2011-05-25)
+o Improved veidarfaeri() so it works both ways, converting id<->lysing.
+
+hafroAssmt 1.4-1 (2011-05-24)
+o New argument 'div' to surveyIndex().
+
+hafroAssmt 1.4-0 (2011-05-24)
+o New function surveyIndex().
+
+hafroAssmt 1.3-0 (2011-05-01)
+o New function residplot().
+
+hafroAssmt 1.2-0 (2011-04-11)
+o New function veidarfaeri().
+
+hafroAssmt 1.1-0 (2010-11-10)
+o New function zlines().
+o New example data frame catage.
+
+hafroAssmt 1.0-3 (2010-10-02)
+o Improved labit() help page.
+
+hafroAssmt 1.0-2 (2010-09-26)
+o Improved vignette 'devguide'.
+
+hafroAssmt 1.0-1 (2010-09-24)
+o New vignette 'devguide'.
+o New package help page.
+
+hafroAssmt 1.0-0 (2010-09-23)
+o New function labit().
+o Released on R-Forge.
